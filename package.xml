@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wiseboost_WishlistCounter</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>WISHLIST COUNTER is an extension that will count the number of persons who have an item in their wishlist and displays it on the product page (or in category listing). </summary>
+    <description>WISHLIST COUNTER is an extension that will count the number of persons who have an item in their wishlist and displays it on the product page (or in category listing). </description>
+    <notes>First stable release</notes>
+    <authors><author><name>Wiseboost</name><user>Wiseboost</user><email>raceface89@hotmail.com</email></author></authors>
+    <date>2013-11-28</date>
+    <time>05:00:00</time>
+    <contents><target name="magecommunity"><dir name="Wiseboost"><dir name="General"><dir name="Helper"><file name="Data.php" hash="4fa9a117fd0fbcd2d3f60ee7059366d0"/></dir><dir name="Model"><file name="Feed.php" hash="ec3d2e01280846544278f16d692a8b9a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a3e6d62888357576b7f9f17d3a4bc26d"/><file name="config.xml" hash="92099631f9f3dd0b50f9f04c60e9b6a6"/><file name="system.xml" hash="15c1ba086cf5ee75d3f479ffeb934110"/></dir></dir><dir name="WishlistCounter"><dir name="Helper"><file name="Data.php" hash="4accb80bb4624522f64f5c19c6ef9a34"/></dir><dir name="Model"><file name="Observer.php" hash="7a7706dfcff1b14c7ea5dba031d00bc8"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a60f8e1a2d2a0381beab199b8c06bbef"/><file name="config.xml" hash="c2bed1b4eca7d10b85b7d19d1a5ddc30"/><file name="system.xml" hash="e1b4ef1c349eb56e918cf628666fd686"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Wiseboost_WishlistCounter.xml" hash="a65ef2f9961fd5f0f0a0cf251aa3c734"/><file name="Wiseboost_General.xml" hash="8373b0af51b16d30b3f43af037076706"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
