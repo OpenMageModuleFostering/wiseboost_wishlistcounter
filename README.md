@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 WISHLIST COUNTER is an extension that will count the number of persons who have an item in their wishlist and displays it on the product page (or in category listing). 
